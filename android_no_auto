@@ -21,7 +21,7 @@ custom_proxy_group=🛑 广告拦截`select`[]REJECT`[]DIRECT
 custom_proxy_group=📲 电报消息`select`[]节点选择`.*
 custom_proxy_group=🎥 YouTube`select`[]节点选择`.*
 custom_proxy_group=🤖 人工智能`select`[]节点选择`.*
-custom_proxy_group=全球直连`select`[]DIRECT`[]节点选择
+custom_proxy_group=直连`select`[]DIRECT`[]节点选择
 custom_proxy_group=🐟 漏网之鱼`select`[]节点选择`[]DIRECT
 
 

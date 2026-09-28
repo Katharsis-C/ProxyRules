@@ -1,6 +1,6 @@
 [custom]
 ruleset=🎯 直连,clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/private.list,86400
-ruleset=🎯 直连,clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/apple-cn.list,86400
+ruleset=🎯 直连,https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/ruleset/meta/apple-cn.list
 
 ruleset=🎵 Spotify,https://raw.githubusercontent.com/HenryChiao/MIHOMO_YAMLS/ruleset/meta/spotify.list
 ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
@@ -8,11 +8,11 @@ ruleset=🚀 节点选择,[]DOMAIN-SUFFIX,services.googleapis.cn
 ruleset=📢 FCM,https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/GoogleFCM.list
 ruleset=📢 Wechat FCM,https://raw.githubusercontent.com/Katharsis-C/ProxyRules/main/Wechat.list
 
-ruleset=🚀 节点选择,clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/gfw.list,86400
-
 ruleset=🎯 直连,clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/cn-lite.list,86400
-ruleset=🎯 直连,clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/privateip.list,86400
 ruleset=🎯 直连,clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/cnip.list,86400
+ruleset=🎯 直连,clash-ipcidr:https://github.com/DustinWin/geoip/releases/download/ips/privateip.list,86400
+
+ruleset=🚀 节点选择,clash-domain:https://github.com/DustinWin/domain-list-custom/releases/download/domains/gfw.list,86400
 
 ruleset=🎯 直连,[]GEOIP,CN
 ruleset=🐟 漏网之鱼,[]FINAL
@@ -23,8 +23,6 @@ custom_proxy_group=📢 FCM`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=📢 Wechat FCM`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🎯 直连`select`[]DIRECT`[]🚀 节点选择
 custom_proxy_group=🐟 漏网之鱼`select`[]🚀 节点选择`[]DIRECT
-
-
 
 enable_rule_generator=true
 overwrite_original_rules=true
